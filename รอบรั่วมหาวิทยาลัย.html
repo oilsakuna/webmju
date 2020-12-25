@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+     initial-scale=1.0">
+    <title>มหาวิทยาลัยแม่โจ้</title>
+    <!-- link -->
+    <!-- css -->
+    <!-- Compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link href="layout.css" rel="stylesheet">
+    <!-- css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <!-- java script -->
+    <style>
+        .title-thai {
+            position: relative;
+            top: -93px;
+            left: 107px;
+            font-size: 32px;
+            color: #ffffff;
+        }
+
+        .title-eng {
+            position: relative;
+            top: -101px;
+            left: 107px;
+            font-size: 23px;
+            color: #ffffff;
+        }
+
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #408609;
+        }
+
+        .left-menu {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 6px 16px;
+            text-decoration: none;
+        }
+
+        .left-menu a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .bar-title {
+            position: relative;
+            margin-bottom: 30px;
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .text-title {
+            position: relative;
+            color: #ffffff;
+            padding: 2px 15px;
+            font-weight: 800;
+            font-size: 17px;
+            letter-spacing: 3px;
+            display: inline-block;
+            background-color: #408609;
+            text-transform: uppercase;
+        }
+
+        .title-text {
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .margin-top {
+            margin-top: 15px;
+        }
+
+        li {
+            padding: 5px;
+        }
+
+        .footer {
+            background-color: #d3d3d3;
+            height: 156px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- โครงสร้าง  div
+    ข้อความ  h1-h6 , p , span , code,
+    ตาราง  table , td , tr
+    รูป   img
+    วิดีโอ  video
+    กราฟ cavas
+    รายการลำดับ  ul  ol  li 
+    .... -->
+
+    <!-- header -->
+    <div class="row align-items-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img
+                        src="https://pr.mju.ac.th/goverment/25590428090422_prMJU/Logo_25620704120702_752394.png"
+                        width="70px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="เกี่ยวกับมหาวิทยาลัย.html">เกี่ยวกับมหาวิทยาลัย</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="หน่วยงาน.html">หน่วยงาน</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="วิจัยและบริหารการศึกษา.html">วิจัยและบริหารการศึกษา</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="รอบรั่วมหาวิทยาลัย.html">รอบรั่วมหาวิทยาลัย</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="ค้นหา">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    </div>
+    <div class="container">
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=
+     initial-scale=1.0">
+            <title>มหาวิทยาลัยแม่โจ้</title>
+            <!-- link -->
+            <!-- css -->
+            <!-- Compiled and minified CSS -->
+            <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+            <link href="layout.css" rel="stylesheet">
+            <!-- css bootstrap -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+                crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+                crossorigin="anonymous"></script>
+            <!-- js bootstrap -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+                integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+                integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+                crossorigin="anonymous"></script>
+
+
+            <!-- Compiled and minified JavaScript -->
+            <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+            <!-- java script -->
+            <style>
+                .title-thai {
+                    position: relative;
+                    top: -93px;
+                    left: 107px;
+                    font-size: 32px;
+                    color: #ffffff;
+                }
+
+                .title-eng {
+                    position: relative;
+                    top: -101px;
+                    left: 107px;
+                    font-size: 23px;
+                    color: #ffffff;
+                }
+
+                .menu {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: #408609;
+                }
+
+                .left-menu {
+                    float: left;
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 6px 16px;
+                    text-decoration: none;
+                }
+
+                .left-menu a {
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+
+                .bar-title {
+                    position: relative;
+                    margin-bottom: 30px;
+                    background-color: #f3f3f3;
+                    display: flex;
+                    justify-content: space-between;
+
+                }
+
+                .text-title {
+                    position: relative;
+                    color: #ffffff;
+                    padding: 2px 15px;
+                    /* font-weight: 500; */
+                    font-size: 24px;
+                    letter-spacing: 3px;
+                    display: inline-block;
+                    background-color: #408609;
+                    text-transform: uppercase;
+                }
+
+                .title-text {
+                    font-size: 14px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
+
+                .margin-top {
+                    margin-top: 15px;
+                }
+
+                li {
+                    padding: 5px;
+                }
+
+                .footer {
+                    background-color: #d3d3d3;
+                    height: 156px;
+                }
+            </style>
+        </head>
+
+        <body>
+            <!-- โครงสร้าง  div
+    ข้อความ  h1-h6 , p , span , code,
+    ตาราง  table , td , tr
+    รูป   img
+    วิดีโอ  video
+    กราฟ cavas
+    รายการลำดับ  ul  ol  li 
+    .... -->
+
+            <!-- header -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-center">
+                        <img src="https://www.mju.ac.th/main/images/life_mju2554/life_mju2554_03.jpg" alt="" width="215"
+                            height="477">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="bar-title">
+                            <div class="text-title">
+                                รอบรั่วมหาวิทยาลัย
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://www.mju.ac.th/main/images/life_mju2554/life_mju2554_08.gif" alt=""
+                                    width="177" height="79" border="0" align="top">
+                            </div>
+                            <div class="col-md-8">
+                                ภาพบรรยากาศในมุมมองต่าง ๆ ภายในมหาวิทยาลัย รวมถึงภาพบรรยากาศของวิทยาเขต จังหวัดแพร่
+                                และจังหวัดชุมพร ...
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://www.mju.ac.th/main/images/life_mju2554/life_mju2554_13.gif" alt=""
+                                    width="177" height="79" border="0">
+                            </div>
+                            <div class="col-md-8">
+                                ชมวีดีโอแนะนำมหาวิทยาลัย เพื่อทราบถึงเรื่องราวของมหาวิทยาลัยที่มีชื่อเสียง ด้านการเกษตร
+                                และผลงานต่าง ๆ อีกหลายมุมมองของมหาวิทยาลัยแม่โจ้ ...
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://www.mju.ac.th/main/images/life_mju2554/life_mju2554_11.gif" alt=""
+                                    width="177" height="78" border="0">
+                            </div>
+                            <div class="col-md-8">
+                                สถานีข่าวมหาวิทยาลัยแม่โจ้ MJU CHANNEL ศูนย์กลางในการเผยแพร่ ความเคลื่อนไหว กิจกรรม
+                                ข่าวสาร
+                                ในทุก ๆ ด้านของมหาวิทยาลัย ถ่ายทอดผ่านเครือข่ายอินเตอร์เน็ต ในรูปแบบของ Video Streaming
+                                ...
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://www.mju.ac.th/main/images/life_mju2554/life_mju2554_15.gif" alt=""
+                                    width="177" height="78" border="0">
+                            </div>
+                            <div class="col-md-8">
+                                สถานีวิทยุเพื่อการศึกษา มหาวิทยาลัยแม่โจ้ ออกอากาศทุกวันรวมวันละ 13 ชั่วโมง ตั้งแต่เวลา
+                                09.00 -
+                                22.00 น. เพื่อเป็นแหล่งกระจายเสียง ด้านวิชาการบริการแก่ชุมชน , ผลงานวิชาการ
+                                ของบุคลากรแม่โจ้
+                                และองค์กรภายนอก
+                                มหาวิทยาลัย ...
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+</div
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td height="5" colspan="3" bgcolor="#489C09"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" bgcolor="#d3d3d3">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#d3d3d3">&nbsp;</td>
+                        <td bgcolor="#d3d3d3">
+                            <table id="Table_01" width="1450" height="100" border="0" collpadding="0" collspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td valign="top">
+                                            <table id="Table_2" width="246" height="133" border="0" cellpadding="0"
+                                                cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#" target="_blank">
+                                                                <img src="https://cdn.icon-icons.com/icons2/2037/PNG/512/ig_instagram_media_social_icon_124260.png"
+                                                                    alt width="50">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#" target="_blank">
+                                                                <img src="https://image.flaticon.com/icons/png/512/174/174848.png"
+                                                                    alt width="50">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#" target="_blank">
+                                                                <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-512.png"
+                                                                    alt width="50">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">
+                                                            <a href="#" target="_blank">
+                                                                <img src="https://www.mju.ac.th/main/images2015/Group-ig-fg-youtube/images/group-ig-fb-youtube_04.gif"
+                                                                    alt width="246" height="58">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <img src="https://www.mju.ac.th/main/images2015/Footer_Layout_02.gif"
+                                                width="17" height="133" alt>
+                                        </td>
+                                        <td valign="top">
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td width="15%" class="Head_Footer_kittithada">หน้าหลัก</td>
+                                                        <td width="85%">
+                                                            <a href="#"
+                                                                class="details_kittithada">เกี่ยวกับมหาวิทยาลัย</a>
+                                                            |
+                                                            <span class="details_kittithada">
+                                                                <a href="#">หน่วยงาน</a>
+                                                            </span>
+                                                            |
+                                                            <span class="details_kittithada">
+                                                                <a href="#">การศึกษา</a>
+                                                            </span>
+                                                            |
+                                                            <span class="details_kittithada">
+                                                                <a href="#">วิจัยและบริการวิชาการ</a>
+                                                            </span>
+                                                            |
+                                                            <span class="details_kittithada">
+                                                                <a href="#">รอบรั้วมหาวิทยาลัย</a>
+                                                            </span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td lass="Head_Footer_kittithada">ข่าว</td>
+                                                        <td class="details_kittithada">
+                                                            <a href="#">ข่าวกิจกรรม</a>
+                                                            |
+                                                            <a href="#">ข่าวประกาศทั่วไป</a>
+                                                            |
+                                                            <a href="#">ข่าวรับสมัครงาน</a>
+                                                            |
+                                                            <a href="#">ข่าวประกวดราคา</a>
+                                                            |
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td lass="Head_Footer_kittithada">วิทยาเขต</td>
+                                                        <td lass="details_kittithada">
+                                                            <a href="#">มหาวิทยาลัยแม่โจ้ - แพร่</a>
+                                                            |
+                                                            <a href="#">มหาวิทยาลัยแม่โจ้ - ชุมพร</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td lass="Head_Footer_kittithada">สื่อออนไลน์</td>
+                                                        <td lass="details_kittithada">
+                                                            <a href="#">MJU CHANNEL</a>
+                                                            |
+                                                            <a href="#">MJU RADIO</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <img src="https://www.mju.ac.th/main/images2015/Footer_Layout_04.gif"
+                                                width="998" height="7">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </body>
+
+        </html>
+    </div>
+
+    <hr>
+</body>
+
+</html>

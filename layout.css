@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'galaxy';
+    src: url('FCGalaxyRegular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'galaxy';
+   
+    color: #000;
+    font-size: 25px;
+}
